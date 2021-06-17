@@ -15,9 +15,12 @@ taskForm.addEventListener("submit", function(e) {
   // slap it on the document 
   // where?
   const taskItem = document.createElement("li");
+
   taskItem.innerText = newTask
 
   taskList.appendChild(taskItem)
   taskForm.reset()
 
 }) 
+// delete button ?
+
